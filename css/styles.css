@@ -11151,7 +11151,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-masthead.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 85%, #000 100%), url("../assets/img/bg-masthed.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11219,4 +11219,30 @@ body {
   margin-top: 25px;
   margin-right: 40px;
   float: left;
+}
+
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 3px solid rgb(116, 100, 161);
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.team-member p {
+  margin-top: 0;
+}
+
+.card-title{
+  font-size: 1.5rem !important;
 }
